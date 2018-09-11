@@ -4,8 +4,9 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 
 const routes: Routes = [
+ 
   {
-    path: '',
+    path: 'welcome',
     component: WelcomeComponent
   }
 ];
