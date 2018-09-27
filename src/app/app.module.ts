@@ -9,13 +9,17 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { MySideNavComponent } from './materialComponents/my-side-nav/my-side-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MyDashboardComponent } from './materialComponents/my-dashboard/my-dashboard.component';
+import { FriendsListComponent } from './components/friends-list/friends-list.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     MySideNavComponent,
-    MyDashboardComponent
+    MyDashboardComponent,
+    FriendsListComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
